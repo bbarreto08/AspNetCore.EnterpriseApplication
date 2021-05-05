@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MLlPO2K066jUg+1mFaJfqe31vvM+k+HX0CZjpwS9uALmyT/L66VogzAVnhdm0AhIWFzM/JP4sUHT3jZdd1If8w==",
+  "success": true,
+  "projectFilePath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\services\\Pagamento.API\\Pagamento.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}

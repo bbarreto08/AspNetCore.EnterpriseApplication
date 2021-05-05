@@ -1,0 +1,9 @@
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\bin\Debug\netcoreapp3.1\Application.Core.deps.json
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\bin\Debug\netcoreapp3.1\Application.Core.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\bin\Debug\netcoreapp3.1\Application.Core.pdb
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\obj\Debug\netcoreapp3.1\Application.Core.csprojAssemblyReference.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\obj\Debug\netcoreapp3.1\Application.Core.AssemblyInfoInputs.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\obj\Debug\netcoreapp3.1\Application.Core.AssemblyInfo.cs
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\obj\Debug\netcoreapp3.1\Application.Core.csproj.CoreCompileInputs.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\obj\Debug\netcoreapp3.1\Application.Core.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\building blocks\Application.Core\obj\Debug\netcoreapp3.1\Application.Core.pdb

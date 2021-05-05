@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/ZZFRXkKnCv1T08cA/h8CVhvYzxMQlSqrlHMDjO5s9LdSm5Z5eKAlj9mW+V8HPTf29unzxvBKX0ZUA7FHFOr2g==",
+  "success": true,
+  "projectFilePath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\services\\Cliente.API\\Cliente.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
