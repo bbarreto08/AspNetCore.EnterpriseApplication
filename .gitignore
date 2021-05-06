@@ -16,16 +16,16 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+debug/
+debugPublic/
+release/
+releases/
 x64/
 x86/
 bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
+bin/
+obj/
+log/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -33,16 +33,16 @@ bld/
 #wwwroot/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+test[Rr]esult*/
+buildLog.*
 
 # NUNIT
 *.VisualState.xml
 TestResult.xml
 
 # Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+debugPS/
+releasePS/
 dlldata.c
 
 # DNX
