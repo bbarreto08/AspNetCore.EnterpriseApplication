@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
@@ -88,6 +89,7 @@ namespace Identidade.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            IdentityModelEventSource.ShowPII = true;
 
             app.UseHttpsRedirection();
 
