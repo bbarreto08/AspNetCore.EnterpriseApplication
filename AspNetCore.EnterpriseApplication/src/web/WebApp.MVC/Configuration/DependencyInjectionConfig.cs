@@ -1,8 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using WebApp.MVC.Extensions;
 using WebApp.MVC.Services;
 
 namespace WebApp.MVC.Configuration
@@ -12,6 +10,8 @@ namespace WebApp.MVC.Configuration
         public static void RegisterServices(this IServiceCollection services)
         {
             services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IUser, AspNetUser>();
         }
     }
 }
