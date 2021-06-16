@@ -14,11 +14,8 @@ namespace WebApp.MVC.Services
             switch ((int)response.StatusCode)
             {
                 case 401:
-                    break;
                 case 403:
-                    break;
                 case 404:
-                    break;
                 case 500:
                     throw new CustomHttpRequestException(response.StatusCode);
                 case 400:
