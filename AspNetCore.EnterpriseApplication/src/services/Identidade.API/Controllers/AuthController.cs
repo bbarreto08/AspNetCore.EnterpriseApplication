@@ -61,7 +61,6 @@ namespace Identidade.API.Controllers
             if (!ModelState.IsValid)
                 return CustomResponse(ModelState);
 
-
             var result = await _signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true);
 
             if (result.Succeeded)
