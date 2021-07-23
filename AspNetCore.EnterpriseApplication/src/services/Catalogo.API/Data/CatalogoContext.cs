@@ -1,17 +1,19 @@
 ﻿using Catalogo.API.Models;
 using Microsoft.EntityFrameworkCore;
+using NSE.Core.Data;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Catalogo.API.Data
 {
-    public class CatalogoContext : DbContext
+    public class CatalogoContext : DbContext, IUnitOfWork
     {
         public CatalogoContext(DbContextOptions<CatalogoContext> options) : base(options)
         {
 
         }
 
-        public DbSet<Produto> Produto { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,5 +23,11 @@ namespace Catalogo.API.Data
 
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
         }
+
+        public async Task<bool> Commit()
+        {
+            return await base.SaveChangesAsync() > 0;
+        }
+
     }
 }
