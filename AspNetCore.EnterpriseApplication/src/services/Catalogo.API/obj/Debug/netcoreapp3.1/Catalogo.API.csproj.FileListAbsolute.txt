@@ -61,3 +61,13 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\obj\Debug\netcoreapp3.1\Catalogo.API.MvcApplicationPartsAssemblyInfo.cs
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb

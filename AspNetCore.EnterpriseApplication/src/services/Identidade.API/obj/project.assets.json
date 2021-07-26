@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FluentValidation/8.6.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.14": {
         "type": "package",
         "dependencies": {
@@ -1597,10 +1609,46 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "NSE.WebAPI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FluentValidation": "8.6.2",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.4"
+        },
+        "compile": {
+          "bin/placeholder/NSE.WebAPI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NSE.WebAPI.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
   "libraries": {
+    "FluentValidation/8.6.2": {
+      "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
+      "type": "package",
+      "path": "fluentvalidation/8.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.8.6.2.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.14": {
       "sha512": "/HlfEeETtagEM+HuLr7VzXAd6MkxLVUbXRWDEvzMPe3cNXl8ZbuPv8oaiAd99sBhXlOKemeQVZooi8nOeekuFA==",
       "type": "package",
@@ -5894,6 +5942,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "NSE.WebAPI.Core/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj",
+      "msbuildProject": "../../building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5907,6 +5960,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.14",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.14",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "NSE.WebAPI.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.1.4"
     ]
   },
@@ -5940,7 +5994,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+              "projectPath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

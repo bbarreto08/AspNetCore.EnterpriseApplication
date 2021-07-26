@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "B851uJ562lIMb5SWxOAy41a3iQrD4L7kTvcrslH/xIY7UVj7sKZBeEDJVLRFyuN/1C/3br7SWmyXa8kCSiR7cg==",
+  "dgSpecHash": "cxd5KlrboK2GH2h2i9sgJx4unmnLqleAPnfBTkswGXoX2Z1Q90vr7Rx5JMY/pCAcB9TezrRqaQR9OJTBmxD9gQ==",
   "success": true,
   "projectFilePath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\services\\Identidade.API\\Identidade.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Estudos\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.14\\microsoft.aspnetcore.authentication.jwtbearer.3.1.14.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.14\\microsoft.aspnetcore.cryptography.internal.3.1.14.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.14\\microsoft.aspnetcore.cryptography.keyderivation.3.1.14.nupkg.sha512",

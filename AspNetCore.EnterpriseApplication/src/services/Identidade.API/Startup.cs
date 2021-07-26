@@ -1,6 +1,5 @@
 using Identidade.API.Data;
 using Identidade.API.Extensions;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
@@ -9,10 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Logging;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Text;
+using NSE.WebAPI.Core.Identidade;
 
 namespace Identidade.API
 {
@@ -48,31 +45,7 @@ namespace Identidade.API
                 .AddDefaultTokenProviders();
 
             // JWT
-
-            var appSettingSection = Configuration.GetSection("AppSettings");
-            services.Configure<AppSettings>(appSettingSection);
-
-            var appSettings = appSettingSection.Get<AppSettings>();
-            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
-
-            services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(bearerOptions =>
-            {
-                bearerOptions.RequireHttpsMetadata = true;
-                bearerOptions.SaveToken = true;
-                bearerOptions.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidAudience = appSettings.ValidoEm,
-                    ValidIssuer = appSettings.Emissor
-                };
-            });
+            services.AddJwtConfiguration(Configuration);
 
             services.AddControllers();
 
@@ -106,8 +79,7 @@ namespace Identidade.API
 
             app.UseRouting();
 
-            app.UseAuthentication();
-            app.UseAuthorization();
+            app.UseAuthConfiguration();
             
             app.UseEndpoints(endpoints =>
             {

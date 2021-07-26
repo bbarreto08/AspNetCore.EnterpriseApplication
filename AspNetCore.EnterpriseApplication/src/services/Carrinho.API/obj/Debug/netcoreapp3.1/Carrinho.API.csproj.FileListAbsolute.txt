@@ -6,7 +6,6 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\bin\Debug\netcoreapp3.1\Carrinho.API.runtimeconfig.dev.json
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\bin\Debug\netcoreapp3.1\Carrinho.API.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\bin\Debug\netcoreapp3.1\Carrinho.API.pdb
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\obj\Debug\netcoreapp3.1\Carrinho.API.csprojAssemblyReference.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\obj\Debug\netcoreapp3.1\Carrinho.API.AssemblyInfoInputs.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\obj\Debug\netcoreapp3.1\Carrinho.API.AssemblyInfo.cs
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Carrinho.API\obj\Debug\netcoreapp3.1\Carrinho.API.csproj.CoreCompileInputs.cache

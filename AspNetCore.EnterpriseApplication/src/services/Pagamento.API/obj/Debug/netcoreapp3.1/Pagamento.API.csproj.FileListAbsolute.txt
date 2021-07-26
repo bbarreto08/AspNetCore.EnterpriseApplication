@@ -6,7 +6,6 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\bin\Debug\netcoreapp3.1\Pagamento.API.runtimeconfig.dev.json
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\bin\Debug\netcoreapp3.1\Pagamento.API.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\bin\Debug\netcoreapp3.1\Pagamento.API.pdb
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\obj\Debug\netcoreapp3.1\Pagamento.API.csprojAssemblyReference.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\obj\Debug\netcoreapp3.1\Pagamento.API.AssemblyInfoInputs.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\obj\Debug\netcoreapp3.1\Pagamento.API.AssemblyInfo.cs
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pagamento.API\obj\Debug\netcoreapp3.1\Pagamento.API.csproj.CoreCompileInputs.cache

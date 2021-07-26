@@ -6,7 +6,6 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\bin\Debug\netcoreapp3.1\Pedido.API.runtimeconfig.dev.json
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\bin\Debug\netcoreapp3.1\Pedido.API.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\bin\Debug\netcoreapp3.1\Pedido.API.pdb
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.csprojAssemblyReference.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.AssemblyInfoInputs.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.AssemblyInfo.cs
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.csproj.CoreCompileInputs.cache

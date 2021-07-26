@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NSE.WebAPI.Core.Identidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,7 +46,7 @@ namespace Catalogo.API.Configuration
 
             app.UseCors("Total");
 
-            //app.UseAuthConfiguration();
+            app.UseAuthConfiguration();
 
             app.UseEndpoints(endpoints =>
             {
