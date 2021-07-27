@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NSE.WebAPI.Core.Identidade;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ using System.Threading.Tasks;
 
 namespace Catalogo.API.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class CatalogoController : ControllerBase
     {
         private readonly IProdutoRepository _produtoRepository;
@@ -27,7 +28,7 @@ namespace Catalogo.API.Controllers
             return await _produtoRepository.ObterTodos();
         }
 
-        //[ClaimsAuthorize("Catalogo", "Ler")]
+        [ClaimsAuthorize("Catalogo", "Ler")]
         [HttpGet("catalogo/produtos/{id}")]
         public async Task<Produto> ProdutoDetalhe(Guid id)
         {

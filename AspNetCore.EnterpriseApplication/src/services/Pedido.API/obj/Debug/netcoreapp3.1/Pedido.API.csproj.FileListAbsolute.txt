@@ -17,3 +17,4 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.pdb
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.genruntimeconfig.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Pedido.API\obj\Debug\netcoreapp3.1\Pedido.API.csprojAssemblyReference.cache
