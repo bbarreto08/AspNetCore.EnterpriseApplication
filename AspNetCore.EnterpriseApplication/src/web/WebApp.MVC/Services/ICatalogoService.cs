@@ -1,10 +1,7 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Refit;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
-using WebApp.MVC.Extensions;
 using WebApp.MVC.Models;
 
 namespace WebApp.MVC.Services
@@ -15,34 +12,12 @@ namespace WebApp.MVC.Services
         Task<ProdutoViewModel> ObterPorId(Guid id);
     }
 
-    public class CatalogoService : Service, ICatalogoService
+    public interface ICatalogoServiceRefit
     {
-        private readonly HttpClient _httpClient;
+        [Get("/catalogo/produtos/")]
+        Task<IEnumerable<ProdutoViewModel>> ObterTodos();
 
-        public CatalogoService(HttpClient httpClient,
-            IOptions<AppSettings> settings)
-        {
-            httpClient.BaseAddress = new Uri(settings.Value.CatalogoUrl);
-
-            _httpClient = httpClient;
-        }
-
-        public async Task<ProdutoViewModel> ObterPorId(Guid id)
-        {
-            var response = await _httpClient.GetAsync($"/catalogo/produtos/{id}");
-
-            TratarErrosResponse(response);
-
-            return await DeserializarObjetoResponse<ProdutoViewModel>(response);
-        }
-
-        public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
-        {
-            var response = await _httpClient.GetAsync("/catalogo/produtos/");
-
-            TratarErrosResponse(response);
-
-            return await DeserializarObjetoResponse<IEnumerable<ProdutoViewModel>>(response);
-        }
+        [Get("/catalogo/produtos/{id}")]
+        Task<ProdutoViewModel> ObterPorId(Guid id);
     }
 }

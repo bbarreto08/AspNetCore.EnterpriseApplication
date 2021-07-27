@@ -411,3 +411,6 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\web\WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\web\WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Catalogo\Index.cshtml.g.cs
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\web\WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Catalogo\ProdutoDetalhe.cshtml.g.cs
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\web\WebApp.MVC\obj\Debug\netcoreapp3.1\WebApp.MVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\web\WebApp.MVC\bin\Debug\netcoreapp3.1\Refit.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\web\WebApp.MVC\bin\Debug\netcoreapp3.1\System.Net.Http.Json.dll
