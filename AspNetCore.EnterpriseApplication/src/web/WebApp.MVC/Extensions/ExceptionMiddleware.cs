@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Polly.CircuitBreaker;
 using Refit;
 using System;
 using System.Collections.Generic;
@@ -35,6 +36,15 @@ namespace WebApp.MVC.Extensions
             {
                 HandleRequestExceptionAsync(httpContext, ex.StatusCode);
             }
+            catch (BrokenCircuitException ex)
+            {
+                HandleCircuitBrokenExceptionAsync(httpContext);
+            }
+        }
+
+        private static void HandleCircuitBrokenExceptionAsync(HttpContext context)
+        {            
+            context.Response.Redirect("/sistema-indisponivel");
         }
 
         private static void HandleRequestExceptionAsync(HttpContext context, HttpStatusCode httpStatusCode)
