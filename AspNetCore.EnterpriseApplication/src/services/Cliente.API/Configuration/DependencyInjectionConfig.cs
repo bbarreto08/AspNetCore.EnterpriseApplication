@@ -1,5 +1,9 @@
-﻿using Cliente.API.Data;
+﻿using Cliente.API.Application.Commands;
+using Cliente.API.Data;
+using FluentValidation.Results;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using NSE.Core.Mediator;
 
 namespace Cliente.API.Configuration
 {
@@ -7,8 +11,8 @@ namespace Cliente.API.Configuration
     {
         public static void RegisterServices(this IServiceCollection services)
         {
-            //services.AddScoped<IMediatorHandler, MediatorHandler>();
-            //services.AddScoped<IRequestHandler<RegistrarClienteCommand, ValidationResult>, ClienteCommandHandler>();
+            services.AddScoped<IMediatorHandler, MediatorHandler>();
+            services.AddScoped<IRequestHandler<RegistrarClienteCommand, ValidationResult>, ClienteCommandHandler>();
 
             //services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
 
