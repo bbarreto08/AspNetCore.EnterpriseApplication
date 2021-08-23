@@ -1,5 +1,8 @@
 ﻿using Cliente.API.Application.Commands;
+using Cliente.API.Application.Events;
 using Cliente.API.Data;
+using Cliente.API.Data.Repository;
+using Cliente.API.Models;
 using FluentValidation.Results;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,9 +17,9 @@ namespace Cliente.API.Configuration
             services.AddScoped<IMediatorHandler, MediatorHandler>();
             services.AddScoped<IRequestHandler<RegistrarClienteCommand, ValidationResult>, ClienteCommandHandler>();
 
-            //services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
+            services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
 
-            //services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<ClientesContext>();
         }
     }

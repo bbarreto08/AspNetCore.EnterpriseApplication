@@ -5,7 +5,7 @@ namespace Cliente.API.Models
 {
     public class Cliente : Entity, IAggregateRoot
     {
-        public string Nome { get; private set; }
+        public string Nome { get; set; }
         public Email Email { get; private set; }
         public Cpf Cpf { get; private set; }
         public bool Excluido { get; private set; }
