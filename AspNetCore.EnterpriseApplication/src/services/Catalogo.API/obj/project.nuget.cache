@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JJ+CkNlE0AidyudIga3FExoUIj0he2xq6BVnfFhR/syxa16BjH45rz7bCQnREUmR5+MxA9K0Kjq+xQpJNEB04Q==",
+  "dgSpecHash": "2D80x/DwFGOYXNhqjS9lqq5EGQOjwl++A7vI9qsARJo+rDnUM/KKMlkUH7t49IaRZcLQcA0rFlcGoHDWXzPBrA==",
   "success": true,
   "projectFilePath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\services\\Catalogo.API\\Catalogo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Estudos\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

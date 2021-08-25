@@ -1,9 +1,3 @@
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.csprojAssemblyReference.cache
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.AssemblyInfoInputs.cache
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.AssemblyInfo.cs
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.csproj.CoreCompileInputs.cache
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.MvcApplicationPartsAssemblyInfo.cs
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.MvcApplicationPartsAssemblyInfo.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\appsettings.json
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\Cliente.API.exe
@@ -14,6 +8,7 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\Cliente.API.pdb
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\MediatR.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -63,6 +58,12 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.csprojAssemblyReference.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.AssemblyInfoInputs.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.AssemblyInfo.cs
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.csproj.CoreCompileInputs.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.MvcApplicationPartsAssemblyInfo.cs
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.MvcApplicationPartsAssemblyInfo.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\staticwebassets\Cliente.API.StaticWebAssets.Manifest.cache
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\staticwebassets\Cliente.API.StaticWebAssets.xml
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Cliente.API.styles.css
@@ -71,4 +72,3 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.pdb
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.genruntimeconfig.cache
-D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll

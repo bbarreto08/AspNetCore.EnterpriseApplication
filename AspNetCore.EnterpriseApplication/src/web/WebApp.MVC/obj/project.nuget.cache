@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "g6+DcCDZih7QdXyVpYxb8god8D5vCWzZEC6TG1UUopfNIDOxPin9sHbBRdBziaN6zz30YKzjTcF7elF/4DHLdQ==",
+  "dgSpecHash": "Vk9Ekhyh1CIMRdXJ3P6Fcsp7eAUs4wUeH4ztgIJ0OdKc3ZHSzgr55aGdmOdZ/d/iYdm0cjN8dtIbtys0GD1JvQ==",
   "success": true,
   "projectFilePath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\web\\WebApp.MVC\\WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Estudos\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.16\\microsoft.aspnetcore.authentication.jwtbearer.3.1.16.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.11\\microsoft.aspnetcore.mvc.razor.extensions.3.1.11.nupkg.sha512",

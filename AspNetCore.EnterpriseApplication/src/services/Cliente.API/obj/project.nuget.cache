@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "IvHdlFQ3MaF1WMQRfinJkfR7sRgxOXkc3wMeXGlTfrRFO9Sv+97XcISqkLlX7yNwv2MTowOWc1d5rW9Gql4Ppg==",
+  "dgSpecHash": "cadWmmcvi6d/VH8I9f8ObH0X8RDETABipfOr/Lx4jfRMIR3f3O9Hm1L2DMpYjaCVN9ucmyMRcVsCL0GWwNcOGQ==",
   "success": true,
   "projectFilePath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\services\\Cliente.API\\Cliente.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Estudos\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
-    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

@@ -14,6 +14,11 @@ namespace Cliente.API.Application.Commands
         public string Email { get; private set; }
         public string Cpf { get; private set; }
 
+        public RegistrarClienteCommand()
+        {
+
+        }
+
         public RegistrarClienteCommand(Guid id, string nome, string email, string cpf)
         {
             AggregateId = id;

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NSE.WebAPI.Core.Controllers;
 using NSE.WebAPI.Core.Identidade;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Catalogo.API.Controllers
 {
     [ApiController]
     [Authorize]
-    public class CatalogoController : ControllerBase
+    public class CatalogoController : MainController
     {
         private readonly IProdutoRepository _produtoRepository;
 
