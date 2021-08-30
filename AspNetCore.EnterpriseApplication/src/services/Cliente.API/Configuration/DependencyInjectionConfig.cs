@@ -3,6 +3,7 @@ using Cliente.API.Application.Events;
 using Cliente.API.Data;
 using Cliente.API.Data.Repository;
 using Cliente.API.Models;
+using Cliente.API.Services;
 using FluentValidation.Results;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +22,8 @@ namespace Cliente.API.Configuration
 
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<ClientesContext>();
+
+            services.AddHostedService<RegistroClienteIntegrationHandler>();
         }
     }
 }
