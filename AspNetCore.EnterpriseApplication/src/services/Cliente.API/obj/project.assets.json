@@ -479,6 +479,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Polly/7.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
       "RabbitMQ.Client/6.2.1": {
         "type": "package",
         "dependencies": {
@@ -1536,6 +1545,21 @@
           "bin/placeholder/NSE.Core.dll": {}
         }
       },
+      "NSE.MessageBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "EasyNetQ": "6.3.1",
+          "NSE.Core": "1.0.0",
+          "Polly": "7.2.2"
+        },
+        "compile": {
+          "bin/placeholder/NSE.MessageBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NSE.MessageBus.dll": {}
+        }
+      },
       "NSE.WebAPI.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2392,6 +2416,29 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Polly/7.2.2": {
+      "sha512": "E6CeKyS513j7taKAq4q2MESDBvzuzWnR1rQ2Y2zqJvpiVtKMm699Aubb20MUPBDmb0Ov8PmcLHTCVFdCjoy2kA==",
+      "type": "package",
+      "path": "polly/7.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.dll",
+        "lib/net461/Polly.pdb",
+        "lib/net461/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.pdb",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.2.2.nupkg.sha512",
+        "polly.nuspec"
       ]
     },
     "RabbitMQ.Client/6.2.1": {
@@ -5706,6 +5753,11 @@
       "path": "../../building blocks/NSE.Core/NSE.Core.csproj",
       "msbuildProject": "../../building blocks/NSE.Core/NSE.Core.csproj"
     },
+    "NSE.MessageBus/1.0.0": {
+      "type": "project",
+      "path": "../../building blocks/NSE.MessageBus/NSE.MessageBus.csproj",
+      "msbuildProject": "../../building blocks/NSE.MessageBus/NSE.MessageBus.csproj"
+    },
     "NSE.WebAPI.Core/1.0.0": {
       "type": "project",
       "path": "../../building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj",
@@ -5714,13 +5766,13 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "EasyNetQ >= 6.3.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.14",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.14",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
       "NSE.Core >= 1.0.0",
+      "NSE.MessageBus >= 1.0.0",
       "NSE.WebAPI.Core >= 1.0.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.1.5",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.1.5"
@@ -5760,6 +5812,9 @@
             "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
               "projectPath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
             },
+            "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
+              "projectPath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj"
+            },
             "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
               "projectPath": "D:\\GitPessoal\\AspNetCore.EnterpriseApplication\\AspNetCore.EnterpriseApplication\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
             }
@@ -5776,10 +5831,6 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "EasyNetQ": {
-            "target": "Package",
-            "version": "[6.3.1, )"
-          },
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.0.0, )"

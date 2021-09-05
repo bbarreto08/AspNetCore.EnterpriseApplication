@@ -1,3 +1,4 @@
+using Identidade.API.Configuration;
 using Identidade.API.Data;
 using Identidade.API.Extensions;
 using Microsoft.AspNetCore.Builder;
@@ -59,6 +60,8 @@ namespace Identidade.API
                     //License = new OpenApiLicense() { Name = "MIT", Url = new Uri("")}
                 });
             });
+
+            services.AddMessageBusConfiguration(Configuration);
         }
         
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

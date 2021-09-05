@@ -12,9 +12,11 @@ namespace NSE.MessageBus
     public class MessageBus : IMessageBus
     {        
         private IBus _bus;
+        private IAdvancedBus _advancedBus;
         private readonly string _connectionString;
 
         public bool IsConnected => _bus?.Advanced.IsConnected ?? false;
+        public IAdvancedBus AdvancedBus => _bus?.Advanced;
 
         public MessageBus(string connectionString)
         {
@@ -34,8 +36,20 @@ namespace NSE.MessageBus
             policy.Execute(() =>
            {
                _bus = RabbitHutch.CreateBus(_connectionString);
+               _advancedBus = _bus.Advanced;
+
+               _advancedBus.Disconnected += OnDisconnect;
            });
             
+        }
+
+        private void OnDisconnect(object s, EventArgs e)
+        {
+            var policy = Policy.Handle<EasyNetQException>()
+            .Or<BrokerUnreachableException>()
+            .RetryForever();
+
+            policy.Execute(TryConnect);
         }
 
         public IAdvancedBus AdvancedBus => throw new NotImplementedException();
@@ -81,12 +95,12 @@ namespace NSE.MessageBus
             return _bus.Rpc.Respond(responder);
         }
 
-        public async Task<IDisposable> RespondAsync<TRequest, TResponse>(Func<TRequest, Task<TResponse>> responder)
+        public IDisposable RespondAsync<TRequest, TResponse>(Func<TRequest, Task<TResponse>> responder)
             where TRequest : IntegrationEvent
             where TResponse : ResponseMessage
         {
             TryConnect();
-            return await _bus.Rpc.RespondAsync(responder);
+            return _bus.Rpc.Respond(responder);
         }
 
         public void Subscribe<T>(string subscriptionId, Action<T> onMessage) where T : class

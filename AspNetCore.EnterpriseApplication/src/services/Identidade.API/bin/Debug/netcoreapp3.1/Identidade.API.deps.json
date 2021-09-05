@@ -24,7 +24,6 @@
     ".NETCoreApp,Version=v3.1": {
       "Identidade.API/1.0.0": {
         "dependencies": {
-          "EasyNetQ": "6.3.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.14",
           "Microsoft.AspNetCore.Identity.UI": "3.1.14",
@@ -35,6 +34,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.14",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
           "NSE.Core": "1.0.0",
+          "NSE.MessageBus": "1.0.0",
           "NSE.WebAPI.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "6.1.4",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -902,6 +902,17 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Polly/7.2.2": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {}
+        }
+      },
       "RabbitMQ.Client/6.2.1": {
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -1598,6 +1609,19 @@
         },
         "compile": {
           "NSE.Core.dll": {}
+        }
+      },
+      "NSE.MessageBus/1.0.0": {
+        "dependencies": {
+          "EasyNetQ": "6.3.1",
+          "NSE.Core": "1.0.0",
+          "Polly": "7.2.2"
+        },
+        "runtime": {
+          "NSE.MessageBus.dll": {}
+        },
+        "compile": {
+          "NSE.MessageBus.dll": {}
         }
       },
       "NSE.WebAPI.Core/1.0.0": {
@@ -3521,6 +3545,13 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
+    "Polly/7.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E6CeKyS513j7taKAq4q2MESDBvzuzWnR1rQ2Y2zqJvpiVtKMm699Aubb20MUPBDmb0Ov8PmcLHTCVFdCjoy2kA==",
+      "path": "polly/7.2.2",
+      "hashPath": "polly.7.2.2.nupkg.sha512"
+    },
     "RabbitMQ.Client/6.2.1": {
       "type": "package",
       "serviceable": true,
@@ -4019,6 +4050,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "NSE.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSE.MessageBus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -75,3 +75,6 @@ D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.dll
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.pdb
 D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\obj\Debug\netcoreapp3.1\Cliente.API.genruntimeconfig.cache
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\Polly.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
+D:\GitPessoal\AspNetCore.EnterpriseApplication\AspNetCore.EnterpriseApplication\src\services\Cliente.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
