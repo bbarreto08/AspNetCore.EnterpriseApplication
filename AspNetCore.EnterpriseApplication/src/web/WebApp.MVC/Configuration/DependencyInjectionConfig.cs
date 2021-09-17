@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.DataAnnotations;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NSE.WebAPI.Core.Usuario;
 using Polly;
 using Polly.Extensions.Http;
 using Polly.Retry;
@@ -40,7 +41,7 @@ namespace WebApp.MVC.Configuration
             //    .AddTypedClient(Refit.RestService.For<ICatalogoServiceRefit>);
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddSingleton<IUser, AspNetUser>();
+            services.AddSingleton<IAspNetUser, AspNetUser>();
         }
     }
 

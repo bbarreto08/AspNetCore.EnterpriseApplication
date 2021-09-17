@@ -52,7 +52,7 @@ namespace NSE.MessageBus
             policy.Execute(TryConnect);
         }
 
-        public IAdvancedBus AdvancedBus => throw new NotImplementedException();
+        //public IAdvancedBus AdvancedBus => throw new NotImplementedException();
 
         public void Dispose()
         {
